@@ -75,6 +75,18 @@ Algorithm:
 - Iterate through each pixel:
   - Copy the pixel value from the input image to the output image with the row index mirrored.
 ![image](./VerticalmirroredImage.jpg)
+### Function 7: blurImage
+Description:
+Blurs the input image using a simple averaging filter.
+
+Algorithm:
+- Get the height and width of the input image.
+- Create a new image for the blurred result.
+- Define a kernel size (e.g., 3x3).
+- Iterate through each pixel:
+  - Calculate the average color value within the kernel.
+  - Set the pixel in the output image with the calculated average color.
+  ![image](./BlurredImage.jpg)
 ## Usage:
 
 - Compile the Java code using: `javac Main.java`
